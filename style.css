@@ -1,0 +1,47 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    background-color: antiquewhite;
+    padding: 50px;
+    text-align: center;
+    border: 2px solid rosybrown;
+    width: 250px;
+    border-radius: 4px;
+}
+
+.container:hover{
+    transform: scale(1.3);
+}
+
+#myP1{
+    font-weight: 600;
+    font-size: larger;
+}
+
+#randomNumber{
+    font-size: 3em;
+}
+
+#submitBtn{
+    color:antiquewhite;
+    background-color:black;
+    font-size: medium;
+    
+}
+
+#submitBtn:hover{
+    color:black;
+    background-color:antiquewhite;
+}
